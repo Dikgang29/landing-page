@@ -1,0 +1,90 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/ice-cream-cone-g57f71c529_1920.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    height: 100vh;
+    
+}
+
+/* .heading{
+    text-align: center;
+} */
+
+h1{
+    text-align: center;
+}
+/* p{
+    text-align: center;
+} */
+/* .button{
+    text-align: center;
+} */
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 25px;
+}
+
+.container1 h4{
+    color: #440f50;
+    /* font-size: medium;
+    font-weight: 400; */
+}
+
+.container1 .button{
+    text-decoration: none;
+    font-size: 15px;
+    color: brown;
+    border:burlywood 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:burlywood;
+}
+
+
+.container1 .button:hover{
+    background-color: #099773;
+    color: white;
+}
+
+.cont2_para{
+    text-align: center;
+}
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.container2 h3{
+    color: #751006;
+}
+
+.container2 .button2{
+text-decoration: none;
+font-size: 15px;
+color: blue;
+border: burlywood 1px solid;
+padding: 10px 10px;
+border-radius: 10px;
+background-color:burlywood;
+}
+
+.container2 .button2:hover{
+    background-color: #099773;
+    color: beige;
+}
